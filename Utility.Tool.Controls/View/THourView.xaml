@@ -44,7 +44,7 @@
               >
             
             <TextBlock x:Name="tbTitle" 
-                       Text="小    时"                            
+                       Text="Hour"                            
                        FontSize="12"
                        Margin="40,2,0,0"
                        Foreground="White"                      

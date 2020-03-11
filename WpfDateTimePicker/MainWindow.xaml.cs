@@ -30,7 +30,7 @@ namespace WpfDateTimePicker
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("所选择的日期时间是： " + dateTimePicker1.DateTime.ToString());
+            MessageBox.Show("selected： " + dateTimePicker1.DateTime.ToString());
         }
     }
 }

@@ -24,7 +24,7 @@
         Width="342"
         xmlns:my="clr-namespace:Utility.Tool.Controls.View;assembly=Utility.Tool.Controls">
     <Grid>
-        <Button Content="测试"
+        <Button Content="Test"
                 Height="23"
                 HorizontalAlignment="Left"
                 Margin="197,30,0,0"
