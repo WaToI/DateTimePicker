@@ -47,7 +47,7 @@
               
               >
                 <TextBlock x:Name="textBlockTitle" 
-                           Text="分    钟"                            
+                           Text="Minute"                            
                            FontSize="12"
                            Margin="0,2,1,0"
                            Foreground="White" HorizontalAlignment="Right" Width="145" />

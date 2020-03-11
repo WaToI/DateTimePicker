@@ -130,12 +130,12 @@ namespace Utility.Tool.Controls.View
         {
             popChioce.IsOpen = false;//THourView 或 TMinSexView 所在pop 的关闭动作
 
-            if (btnNow.Content == "零点")
+            if (btnNow.Content == "Zero")
             {
                 btnhh.Content = "00";
                 btnmm.Content = "00";
                 btnss.Content = "00";
-                btnNow.Content = "当前";
+                btnNow.Content = "Now";
                 btnNow.Background = System.Windows.Media.Brushes.LightBlue;
             }
             else
@@ -144,7 +144,7 @@ namespace Utility.Tool.Controls.View
                 btnhh.Content = dt.Hour.ToString().PadLeft(2, '0');
                 btnmm.Content = dt.Minute.ToString().PadLeft(2, '0');
                 btnss.Content = dt.Second.ToString().PadLeft(2, '0');
-                btnNow.Content = "零点";
+                btnNow.Content = "Zero";
                 btnNow.Background = System.Windows.Media.Brushes.LightGreen;
             }
 
@@ -256,7 +256,7 @@ namespace Utility.Tool.Controls.View
 
             //秒钟 跟分钟 都是60，所有秒钟共用 分钟的窗体即可
             TMinSexView sexView = new TMinSexView(btnss.Content.ToString());//TMinSexView 构造函数 传入秒钟数据
-            sexView.textBlockTitle.Text = "秒    钟";//修改 TMinSexView 的标题名称为秒钟
+            sexView.textBlockTitle.Text = "Second";//修改 TMinSexView 的标题名称为秒钟
             sexView.MinClick += (sexStr) => //TMinSexView 中 所选择确定的 秒钟数据 的传递动作
             {
                 btnss.Content = sexStr;
